@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="darkreader-lock">
 <title>Support — Crossleaf</title>
-<meta name="description" content="Help with Crossleaf: adding documents, searching, markup and contact.">
+<meta name="description" content="Help with Crossleaf: adding documents, searching, scanned PDFs, revisions, Apple Pencil markup and contact.">
+<link rel="canonical" href="https://safabulat.github.io/crossleaf-site/support.html">
+<meta name="apple-itunes-app" content="app-id=6819022919">
 <link rel="icon" href="img/appicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,9 +17,10 @@
   <div class="wrap">
     <a class="wordmark" href="./"><img src="img/appicon.png" alt="">Crossleaf</a>
     <nav>
-      <a href="./">Home</a>
+      <a href="./#how">How it works</a>
+      <a href="./#for">Who it's for</a>
+      <a href="./#faq">FAQ</a>
       <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
     </nav>
   </div>
 </header>
@@ -29,10 +32,23 @@
   <p>Tap <strong>+</strong> and choose PDFs from Files or iCloud Drive, or open a PDF in Crossleaf from Mail or AirDrop.
   Files from Files and iCloud Drive stay where they are — removing one from Crossleaf never deletes your file.</p>
 
-  <h2>"No text layer" or "No outline"</h2>
-  <p>Crossleaf searches the text inside a PDF. A scanned document without a text layer can't be searched — run it
-  through OCR first. Section paths in results come from the PDF's own outline (bookmarks); without one, results are
-  shown by page only.</p>
+  <h2>Searching</h2>
+  <p>Type a phrase in the search field. Crossleaf finds the words in that order, in every document at once; capital
+  letters and accents don't matter. Tap a result to open the page at the match. Your recent searches appear when the
+  field is empty.</p>
+
+  <h2>Scanned PDFs</h2>
+  <p>Pages without a text layer are read with on-device text recognition after you add the document. While that runs,
+  the document shows "Reading scanned pages…" and you can already search the pages that are done. Nothing is uploaded.
+  Recognition works best on clean, straight scans.</p>
+
+  <h2>"No outline"</h2>
+  <p>Section paths in results (Document › Section › Page) come from the PDF's own outline, the bookmarks you see in a
+  PDF reader's sidebar. A document without one is still searched; its results are shown by page only.</p>
+
+  <h2>New revisions</h2>
+  <p>If you added a file from Files or iCloud Drive, just replace that file with the new revision under the same name.
+  Crossleaf notices the change next time it opens and indexes the document again.</p>
 
   <h2>Apple Pencil</h2>
   <p>Open a page and tap the markup button. When you tap <strong>Done</strong>, your drawing is saved into the PDF, so it
@@ -45,6 +61,12 @@
 <footer>
   <div class="wrap">
     <p>Crossleaf · © 2026 Safa Bulat · <a href="mailto:safabulatdev@icloud.com">safabulatdev@icloud.com</a></p>
+    <nav>
+      <a href="https://apps.apple.com/app/id6819022919?ct=site-footer">App Store</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://safabulat.github.io/">More apps</a>
+    </nav>
   </div>
 </footer>
 
